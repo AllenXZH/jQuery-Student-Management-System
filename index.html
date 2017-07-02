@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Student-Management-System</h1>
+    <form id="add" style="">
+      
+      firstname:<br>
+      <input style="width:300px;"/><br>
+      lastname:<br>
+      <input style="width:300px;"/><br>
+      email:<br>
+      <input style="width:300px;"/><br>
+      location:<br>
+      <input style="width:300px;"/><br>
+      phone:<br>
+      <input style="width:300px;"/><br>
+      batch:<br>
+      <input style="width:300px;"/><br>
+      address:<br>
+      <input style="width:300px; height:100px"/><br>
+      previous_employer:<br>
+      <input style="width:300px;"/><br>
+      
+      <button onclick="addNew()">Add New Student</button>
+    </form>
+    <br>
+    show&nbsp;  
+    <select id="dropdown" name="quantity">
+      <option value="ten">10</option>
+      <option value="twenty">20</option>
+      <option value="fifty">50</option>
+      <option value="hundred">100</option>
+    </select>
+    &nbsp;records
+    <br><br>
+    
+    <div>
+      <table id="table" style="width:100%">
+        
+      </table>
+    </div>
+    <script src="request.js"></script>
+  </body>
+
+</html>
