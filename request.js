@@ -1,4 +1,3 @@
-//var records ;
 $(window).ready(function() {
   localStorage.clear();
   $.getJSON("students.json", function(result) {
@@ -6,7 +5,6 @@ $(window).ready(function() {
     for (var i = 0; i < records.length; i++) {
       localStorage.setItem(i, JSON.stringify(records[i]));
     }
-    //alert(localStorage.getItem(localStorage.key(15)));
     printTable(10);
   });
 });
@@ -66,7 +64,6 @@ function spawn() {
   }
   alert("100 records added");
 }
-
 
 //Search
 function search() {
@@ -278,55 +275,3 @@ function scroll() {
     $("#scrollHint").text("Scroll Down to Load More Records");
   }
 }
-
-
-
-/*
-//print table
-var printNum = 0;
-function printTable(num) {
-  printNum = num;
-  printTh(); //print <th>
-  var key;
-  var record;
-  for (i = 0; i < num && i < localStorage.length; i++) {
-    key = localStorage.key(i);
-    //record = JSON.parse(localStorage.getItem(key));
-    
-    /*var list = JSON.stringify(record.previous_employer).split(",");
-    var previous_employer = '<pre style="font-family:Times New Roman">';
-    for (var id in list) {
-      var reg = new RegExp('["{}]',"g");
-      previous_employer += list[id].replace(reg,' ')+'<br>';
-    }
-    previous_employer += '</pre>';
-    $("#table").append(
-    "<tr>" + 
-      '<td>' + (i+1) + "</td>" + 
-      "<td>" + record.firstname + "</td>" + 
-      "<td>" + record.lastname + "</td>" + 
-      '<td class="editable">' + record.email + "</td>" + 
-      '<td class="editable">' + record.location + "</td>" + 
-      '<td class="editable">' + record.phone + "</td>" + 
-      '<td class="editable">' + record.batch + "</td>" + 
-      '<td class="editable">' + record.address.communication + "</td>" + 
-      '<td class="editable">' + record.address.permanent + "</td>" + 
-      '<td class="moredetails">show details' +
-      '<div hidden>' + previous_employer + '</div>' +
-      '</td>' + 
-      '<td><button style="width:80px" class="delete">delete</button><br>' +
-      '<button style="width:80px" class="edit">edit</button></td>' + 
-    "</tr>"
-    );
-  }
-  
-  /*$("tr:odd").attr("style", "background-color:rgba(119,136,153,0.3)");
-  
-  //click event
-  actMoredetails();
-  actDelete();
-  actEdit()
-  //
-  $(window).scroll(scroll);
-}
-*/
