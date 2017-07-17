@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+    hr {
+      display: block;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-left: auto;
+      margin-right: auto;
+      border-style: inset;
+      border-width: 1px;
+    }
+    input {
+      width:300px;
+    }
+    td {
+      text-align:center;
+    }
+    td.moredetails {
+      text-align:center;
+      font-style:italic;
+      color:rgb(0,133,255);
+      width:100%;
+    }
+    
+  </style>
+  </head>
+
+  <body>
+    <h1>Student-Management-System</h1>
+    <div id="addForm">
+      firstname:<br>
+      <input  id="firstname" class="addForm" required/><br>
+      lastname:<br>
+      <input  id="lastname" class="addForm" required/><br>
+      email:<br>
+      <input id="email" type="email" class="addForm" required  
+      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/><br>
+      location:<br>
+      <input id="location" class="addForm" required 
+      placeholder="separate multiple locations by ','"/> <br>
+      phone:<br>
+      <input id="phone" type="tel" class="addForm" required 
+      pattern="^[0-9]\d{9}$"/><br>
+      batch:<br>
+      <input id="batch" class="addForm" required/><br>
+      address:<br>
+      &nbsp;&nbsp;communication:<br>
+      <input id="communication" class="addForm" required
+      placeholder="example: Marlabs, Piscataway, NJ"/><br>
+      &nbsp;&nbsp;permanent:<br>
+      <input id="permanent" class="addForm" required
+      placeholder="example: Jersry City, NJ, USA"/><br>
+      
+      <button onclick="empty()" style="margin-top: 1em">Empty</button>
+      <button id="addNew" onclick="addNew()" style="margin-top: 1em">
+        Add New Student
+      </button>
+      <button onclick="countRecords()" style="margin-top: 1em">Count Records</button>
+      <button onclick="spawn()" style="margin-top: 1em">Add 100 Records</button>
+    </div>
+    <hr>Search a Student Record<br>
+    <div id="searchForm">
+    <select id="searchBy" style="width:120px;">
+      <option value="firstname">firstname</option>
+      <option value="lastname">lastname</option>
+      <option value="location">location</option>
+      <option value="phone">phone</option>
+      <option value="email">email</option>
+    </select>&nbsp; 
+    <input id="searchContent" style="width:140px"/>
+    &nbsp; 
+    <button style="margin-top: 1em" onclick="search()">Search</button>
+    </div>
+    <hr>
+    show&nbsp;  
+    <select id="dropdown" name="quantity" style="width:60px;">
+      <option value="10">10</option>
+      <option value="20">20</option>
+      <option value="50">50</option>
+      <option value="100">100</option>
+    </select>
+    &nbsp;records
+    &nbsp;<button id="submit" onclick="submitRequest()">Submit</button>
+    <br><br>
+    
+    <div style="margin-right: 5em;">
+      <table id="table" style="font-size:15px" border="1">
+        
+      </table>
+    </div>
+    <script src="request.js"></script>
+    
+    <p id="scrollHint" style="text-align:center;color:rgb(0,133,255)" >
+      Scroll Down to Load More Records
+    </p>
+    <br><br><br><br>
+  </body>
+
+</html>

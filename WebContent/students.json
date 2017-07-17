@@ -1,0 +1,259 @@
+{"students": 
+[
+  {
+			"firstname" : "Arungopan000",
+			"lastname" : "Gopakumar000",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway","Jersey City"],
+			"phone" : "34324324323",
+			"batch" : "Java",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan111",
+			"lastname" : "Gopakumar1111",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "1111111111",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan2222",
+			"lastname" : "Gopakumar2222",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "2222222222",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan3333",
+			"lastname" : "Gopakumar33333",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan4444",
+			"lastname" : "Gopakumar44444",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan55555",
+			"lastname" : "Gopakumar5555",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan6666",
+			"lastname" : "Gopakumar6666",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan7777",
+			"lastname" : "Gopakumar7777",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan8888",
+			"lastname" : "Gopakumar8888",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan9999",
+			"lastname" : "Gopakumar9999",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan10",
+			"lastname" : "Gopakumar10",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan11",
+			"lastname" : "Gopakumar11",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan12",
+			"lastname" : "Gopakumar12",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan13",
+			"lastname" : "Gopakumar13",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  },
+  {
+			"firstname" : "Arungopan14",
+			"lastname" : "Gopakumar14",
+			"email" : "arun.gopan@marlabs.com",
+			"location" : ["Piscataway", "Newyork", "Atlanta"],
+			"phone" : "34324324323",
+			"batch" : "JavaScript",
+			"address" : {
+				"communication": "Marlabs, Piscataway, New Jersey",
+				"permanent" : "Trivandrum, Kerala, India"
+			},
+			"previous_employer" : {
+				"google" : "Computer Programmer",
+				"facebook" : "Front end developer",
+				"linkedIn" : "Software Engineer"
+			}
+  }
+
+]
+}
